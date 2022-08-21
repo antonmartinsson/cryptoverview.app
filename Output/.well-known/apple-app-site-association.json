@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [ "CHZ78D7L4T.com.antonmartinsson.cryptoverview" ],
+        "paths": ["*"]
+      }
+    ]
+  }
+}
