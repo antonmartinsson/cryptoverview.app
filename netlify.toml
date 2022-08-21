@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/apple-app-site-association"
+  [headers.values]
+  Cache-Control = '''
+      public,
+      max-age=0'''
+  Content-Type = "application/json"
+  X-Content-Type-Options = "nosniff"
+  
+[[redirects]]
+  from = "/apple-app-site-association"
+  to = "/apple-app-site-association"
+  status = 200
+  force = true
