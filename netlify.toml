@@ -1,6 +1,3 @@
-[build]
-  publish = "Output/"
-
 [[headers]]
   for = "/apple-app-site-association"
   [headers.values]
@@ -21,12 +18,12 @@
 
 [[redirects]]
   from = "/apple-app-site-association"
-  to = "github.com/antonmartinsson/cryptoverviewDotApp/.well-known/apple-app-site-association.json"
+  to = "/.well-known/apple-app-site-association.json"
   status = 200
   force = true
 
 [[redirects]]
   from = "/.well-known/apple-app-site-association"
-  to = "github.com/antonmartinsson/cryptoverviewDotApp/.well-known/apple-app-site-association.json"
+  to = "/.well-known/apple-app-site-association.json"
   status = 200
   force = true
