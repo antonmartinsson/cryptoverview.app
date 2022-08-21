@@ -9,6 +9,6 @@
   
 [[redirects]]
   from = "/apple-app-site-association"
-  to = "/apple-app-site-association"
+  to = "/apple-app-site-association.json"
   status = 200
   force = true
