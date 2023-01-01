@@ -85,6 +85,7 @@ extension Theme {
 
 // This will generate your website using the built-in Foundation theme:
 try Cryptoverview().publish(using: [
+  .copyFiles(at: "/Resources"),
   .copyFile(at: "/apple-app-site-association.json"),
   .generateHTML(withTheme: .cryptoverviewTheme)
 ])
