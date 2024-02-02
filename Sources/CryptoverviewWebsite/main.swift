@@ -35,7 +35,7 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
 			.body {
 				HStack {
 					Div {
-						Div("Crypto at a glance")
+						Div("Bitcoin at a glance")
 							.id("title")
 						Div("Cryptoverview is the best way to keep up with basic Bitcoin metrics on the go. Whether it's the Fear and Greed Index, the average transaction fee or the current NUPL of the Bitcoin market, you can count on Cryptoverview keeping you updated.")
 						Link(url: "https://apps.apple.com/se/app/cryptoverview/id1578673077?l=en") {
