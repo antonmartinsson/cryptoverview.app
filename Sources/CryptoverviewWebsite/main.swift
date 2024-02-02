@@ -14,11 +14,11 @@ struct Cryptoverview: Website {
     }
 
     // Update these properties to configure your website:
-    let url = URL(string: "https://cryptoverview.app")!
-    let name = "Cryptoverview"
-    let description = "Cryptoverview"
-    let language: Language { .english }
-    let imagePath: Path? { nil }
+    var url = URL(string: "https://cryptoverview.app")!
+    var name = "Cryptoverview"
+    var description = "Cryptoverview"
+    var language: Language { .english }
+    var imagePath: Path? { nil }
 }
 
 private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
