@@ -28,13 +28,17 @@ a:hover {
 }
 
 #title {
+    font-family: 'Metropolis-Bold';
 	font-size: 80px;
 	margin: 30px 0px;
 }
 
+#description {
+    font-family: 'Metropolis-Light';
+}
+
 #textContent {
 	margin: 100px;
-	font-family: -apple-system;
 }
 
 #cryptoverviewImage {
@@ -56,18 +60,23 @@ a:hover {
 }
 
 @font-face {
-  font-family: Beattingvile;
+  font-family: 'Beattingvile';
   src: url('../Fonts/Beattingvile.otf');
 }
 
 @font-face {
-  font-family: Metropolis;
+  font-family: 'Metropolis-Medium';
   src: url('../Fonts/Metropolis-Medium.otf');
 }
 
 @font-face {
-  font-family: Coolvetica;
-  src: url('../Fonts/Coolvetica-Condensed.ttf');
+  font-family: 'Metropolis-Bold';
+  src: url('../Fonts/Metropolis-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Metropolis-Light';
+  src: url('../Fonts/Metropolis-Light.otf');
 }
 
 @media screen and (min-width: 1920px) {

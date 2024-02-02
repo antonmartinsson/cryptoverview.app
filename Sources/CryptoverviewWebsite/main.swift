@@ -38,6 +38,7 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
 						Div("Bitcoin at a glance")
 							.id("title")
 						Div("Cryptoverview is the best way to keep up with basic Bitcoin metrics on the go. Whether it's the Fear and Greed Index, the average transaction fee or the current NUPL of the Bitcoin market, you can count on Cryptoverview keeping you updated.")
+                            .id("description")
 						Link(url: "https://apps.apple.com/se/app/cryptoverview/id1578673077?l=en") {
 							Image(url: "Download_on_the_App_Store.png", description: "")
 								.id("downloadOnTheAppStore")
